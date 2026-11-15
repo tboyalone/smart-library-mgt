@@ -1,0 +1,16 @@
+{
+  "name": "smart-library-mgt",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A small object-oriented library management system in TypeScript.",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "npm run build && node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
